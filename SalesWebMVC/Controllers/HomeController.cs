@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿ using Microsoft.AspNetCore.Mvc;
 using SalesWebMVC.Models;
 using System;
 using System.Collections.Generic;
@@ -17,7 +17,7 @@ namespace SalesWebMVC.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "That my first application page!";
 
             return View();
         }
