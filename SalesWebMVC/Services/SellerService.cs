@@ -1,4 +1,5 @@
-﻿using SalesWebMVC.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using SalesWebMVC.Data;
 using SalesWebMVC.Models;
 using System;
 using System.Collections.Generic;
@@ -23,6 +24,18 @@ namespace SalesWebMVC.Services
 
         public void Insert(Seller seller){
             _context.Add(seller);
+            _context.SaveChanges();
+        }
+
+        public Seller FindById(int id)
+        {
+            return _context.Seller.Include(dep => dep.Department).FirstOrDefault(seller => seller.Id == id);
+        }
+
+        public void Remove(int sellerId)
+        {
+            var selllerToDelete = _context.Seller.Find(sellerId);
+            _context.Seller.Remove(selllerToDelete);
             _context.SaveChanges();
         }
     }
