@@ -42,3 +42,4 @@ C:\Users\User\source\repos\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor
 C:\Users\User\source\repos\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Create.cshtml.g.cs
 C:\Users\User\source\repos\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Delete.cshtml.g.cs
 C:\Users\User\source\repos\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Details.cshtml.g.cs
+C:\Users\User\source\repos\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Edit.cshtml.g.cs
